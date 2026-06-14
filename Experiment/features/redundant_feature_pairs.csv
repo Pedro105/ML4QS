@@ -1,0 +1,14 @@
+feature_1,feature_2,abs_corr
+acc_x_mean,acc_x_median,0.9736265014518537
+acc_y_std,acc_magnitude_std,0.9814315941614753
+acc_y_band_gt_5hz,acc_magnitude_band_gt_5hz,0.9646160817180633
+gyro_x_std,gyro_x_rms,0.9990350901683246
+gyro_y_std,gyro_y_rms,0.999504474029369
+gyro_y_std,gyro_magnitude_mean,0.9577253486150188
+gyro_y_std,gyro_magnitude_rms,0.9584002600164924
+gyro_y_rms,gyro_magnitude_mean,0.9578663154998679
+gyro_y_rms,gyro_magnitude_rms,0.9591984584078879
+gyro_z_std,gyro_z_rms,0.997475646611771
+gyro_magnitude_mean,gyro_magnitude_median,0.975377166502193
+gyro_magnitude_mean,gyro_magnitude_rms,0.9971529655661521
+gyro_magnitude_median,gyro_magnitude_rms,0.9627053313375316

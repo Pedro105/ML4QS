@@ -1,0 +1,17 @@
+# Generated outputs (re-run notebooks 01-04 to recreate)
+Experiment/cleaned_data/
+Experiment/windowed_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Claude Code local config
+.claude/

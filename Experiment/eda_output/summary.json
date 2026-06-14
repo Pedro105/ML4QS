@@ -1,0 +1,16 @@
+{
+  "n_recordings_csv": 36,
+  "n_participants": 14,
+  "n_normal": 26,
+  "n_crowded": 10,
+  "n_short": 5,
+  "n_long": 1,
+  "n_needs_conversion": 1,
+  "crowded_participants_found": [
+    "ana",
+    "asena",
+    "darius",
+    "jun",
+    "pedro"
+  ]
+}

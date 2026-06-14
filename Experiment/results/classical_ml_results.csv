@@ -1,0 +1,15 @@
+accuracy,f1,precision,recall,roc_auc,task,model,best_params,macro_f1,subset
+0.9385474860335196,0.8905472636815921,0.8026905829596412,1.0,0.9590316573556796,Owner authentication,Decision Tree,"{'max_depth': 5, 'min_samples_leaf': 1}",,
+1.0,1.0,1.0,1.0,1.0,Owner authentication,Random Forest,"{'max_depth': 10, 'min_samples_leaf': 5, 'n_estimators': 100}",,
+1.0,1.0,1.0,1.0,1.0,Owner authentication,k-NN,{'n_neighbors': 5},,
+0.8743016759776536,0.664179104477612,1.0,0.4972067039106145,1.0,Owner authentication,SVM (RBF),"{'C': 0.1, 'gamma': 'scale'}",,
+0.8365921787709497,,,,,Person identification,Decision Tree,"{'max_depth': 5, 'min_samples_leaf': 5}",0.8309280368710839,
+0.9860335195530726,,,,,Person identification,Random Forest,"{'max_depth': 10, 'min_samples_leaf': 1, 'n_estimators': 100}",0.9860743999370878,
+0.9958100558659218,,,,,Person identification,k-NN,{'n_neighbors': 5},0.9958097616167921,
+0.994413407821229,,,,,Person identification,SVM (RBF),"{'C': 0.1, 'gamma': 'scale'}",0.9944246128923907,
+0.7242827151854444,0.6324626865671642,0.9442896935933147,0.47545582047685836,0.7277545111927726,Context classification,Decision Tree,"{'max_depth': 5, 'min_samples_leaf': 10}",,
+0.8754373687893632,0.8573717948717948,1.0,0.7503506311360448,0.989490860084465,Context classification,Random Forest,"{'max_depth': 10, 'min_samples_leaf': 5, 'n_estimators': 100}",,
+0.8173547935619314,0.7759656652360515,1.0,0.6339410939691444,0.978901408009277,Context classification,k-NN,{'n_neighbors': 15},,
+0.9433170048985304,0.9403095062638173,0.9906832298136646,0.8948106591865358,0.9838729265750976,Context classification,SVM (RBF),"{'C': 10, 'gamma': 'scale'}",,
+1.0,1.0,1.0,1.0,1.0,Cross-context robustness,Random Forest,from task 1,,normal_test
+0.8984819734345351,0.6514657980456026,0.7751937984496124,0.5617977528089888,0.9564542609409471,Cross-context robustness,Random Forest,from task 1,,crowded_test

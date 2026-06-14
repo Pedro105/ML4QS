@@ -1,0 +1,14 @@
+# Generated outputs (re-run notebooks to recreate)
+cleaned_data/
+windowed_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
