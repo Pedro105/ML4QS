@@ -1,7 +1,7 @@
 axis,axis_label,lag100_corr
-acc_x,Lateral acceleration (m/s²),-0.1880012996405915
-acc_y,Vertical acceleration (m/s²),0.019000046651914983
-acc_z,Forward acceleration (m/s²),-0.2860385868736988
-gyro_x,Roll rate (rad/s),0.3017494206460834
-gyro_y,Pitch rate (rad/s),0.07098039418374613
-gyro_z,Yaw rate (rad/s),0.20506768821792193
+acc_x,Lateral acceleration (m/s²),-0.18044024207591813
+acc_y,Vertical acceleration (m/s²),-0.00736090687119737
+acc_z,Forward acceleration (m/s²),-0.2847726807150485
+gyro_x,Roll rate (rad/s),0.30188123161662883
+gyro_y,Pitch rate (rad/s),0.07137396875412493
+gyro_z,Yaw rate (rad/s),0.20593107383640752

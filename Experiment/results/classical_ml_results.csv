@@ -1,15 +1,34 @@
-accuracy,f1,precision,recall,roc_auc,task,model,best_params,macro_f1,subset
-0.9385474860335196,0.8905472636815921,0.8026905829596412,1.0,0.9590316573556796,Owner authentication,Decision Tree,"{'max_depth': 5, 'min_samples_leaf': 1}",,
-1.0,1.0,1.0,1.0,1.0,Owner authentication,Random Forest,"{'max_depth': 10, 'min_samples_leaf': 5, 'n_estimators': 100}",,
-1.0,1.0,1.0,1.0,1.0,Owner authentication,k-NN,{'n_neighbors': 5},,
-0.8743016759776536,0.664179104477612,1.0,0.4972067039106145,1.0,Owner authentication,SVM (RBF),"{'C': 0.1, 'gamma': 'scale'}",,
-0.8365921787709497,,,,,Person identification,Decision Tree,"{'max_depth': 5, 'min_samples_leaf': 5}",0.8309280368710839,
-0.9860335195530726,,,,,Person identification,Random Forest,"{'max_depth': 10, 'min_samples_leaf': 1, 'n_estimators': 100}",0.9860743999370878,
-0.9958100558659218,,,,,Person identification,k-NN,{'n_neighbors': 5},0.9958097616167921,
-0.994413407821229,,,,,Person identification,SVM (RBF),"{'C': 0.1, 'gamma': 'scale'}",0.9944246128923907,
-0.7242827151854444,0.6324626865671642,0.9442896935933147,0.47545582047685836,0.7277545111927726,Context classification,Decision Tree,"{'max_depth': 5, 'min_samples_leaf': 10}",,
-0.8754373687893632,0.8573717948717948,1.0,0.7503506311360448,0.989490860084465,Context classification,Random Forest,"{'max_depth': 10, 'min_samples_leaf': 5, 'n_estimators': 100}",,
-0.8173547935619314,0.7759656652360515,1.0,0.6339410939691444,0.978901408009277,Context classification,k-NN,{'n_neighbors': 15},,
-0.9433170048985304,0.9403095062638173,0.9906832298136646,0.8948106591865358,0.9838729265750976,Context classification,SVM (RBF),"{'C': 10, 'gamma': 'scale'}",,
-1.0,1.0,1.0,1.0,1.0,Cross-context robustness,Random Forest,from task 1,,normal_test
-0.8984819734345351,0.6514657980456026,0.7751937984496124,0.5617977528089888,0.9564542609409471,Cross-context robustness,Random Forest,from task 1,,crowded_test
+accuracy,f1,precision,recall,roc_auc,task,model,feature_set,n_features,best_params,macro_f1,subset
+0.9966480446927374,0.9915966386554622,0.9943820224719101,0.9888268156424581,0.999984394993914,Owner authentication,Logistic Regression,Engineered,101,"{'C': 0.1, 'class_weight': None}",,
+1.0,1.0,1.0,1.0,1.0,Owner authentication,Random Forest,Engineered,101,"{'max_depth': 10, 'min_samples_leaf': 1, 'n_estimators': 100}",,
+0.9910614525139665,0.9771428571428571,1.0,0.9553072625698324,1.0,Owner authentication,SVM (RBF),Engineered,101,"{'C': 10, 'class_weight': None, 'gamma': 'auto'}",,
+0.9977653631284916,,,,,Person identification,Logistic Regression,Engineered,101,"{'C': 1, 'class_weight': None}",0.9977653456925946,
+0.9932960893854749,,,,,Person identification,Random Forest,Engineered,101,"{'max_depth': 10, 'min_samples_leaf': 1, 'n_estimators': 100}",0.9932949994378049,
+0.9988826815642458,,,,,Person identification,SVM (RBF),Engineered,101,"{'C': 1, 'class_weight': None, 'gamma': 'scale'}",0.9988826728462973,
+0.7872340425531915,0.7941495124593716,0.7675392670157068,0.8226711560044894,0.8710042698869515,Context classification,Logistic Regression,Engineered,101,"{'C': 0.1, 'class_weight': 'balanced'}",,
+0.8085106382978723,0.8313609467455622,0.741424802110818,0.9461279461279462,0.8886443579181009,Context classification,Random Forest,Engineered,101,"{'max_depth': 10, 'min_samples_leaf': 1, 'n_estimators': 100}",,
+0.8331466965285554,0.8401287553648069,0.8047276464542652,0.8787878787878788,0.8762472647016409,Context classification,SVM (RBF),Engineered,101,"{'C': 1, 'class_weight': None, 'gamma': 'scale'}",,
+0.9977653631284916,0.9944444444444445,0.988950276243094,1.0,1.0,Owner authentication,Logistic Regression,PCA,38,"{'C': 0.1, 'class_weight': None}",,
+0.9810055865921787,0.9501466275659824,1.0,0.9050279329608939,0.9999921974969571,Owner authentication,Random Forest,PCA,38,"{'max_depth': 10, 'min_samples_leaf': 1, 'n_estimators': 100}",,
+0.9798882681564246,0.9470588235294117,1.0,0.8994413407821229,0.9994460222839487,Owner authentication,SVM (RBF),PCA,38,"{'C': 0.1, 'class_weight': 'balanced', 'gamma': 'auto'}",,
+0.9955307262569832,,,,,Person identification,Logistic Regression,PCA,38,"{'C': 0.1, 'class_weight': None}",0.9955337340928881,
+0.9865921787709497,,,,,Person identification,Random Forest,PCA,38,"{'max_depth': 20, 'min_samples_leaf': 1, 'n_estimators': 100}",0.9865874693182171,
+0.9877094972067039,,,,,Person identification,SVM (RBF),PCA,38,"{'C': 10, 'class_weight': None, 'gamma': 'scale'}",0.9877445239538927,
+0.7166853303471444,0.7361835245046924,0.6874391431353457,0.792368125701459,0.792098514631103,Context classification,Logistic Regression,PCA,38,"{'C': 0.1, 'class_weight': None}",,
+0.7726763717805151,0.7894190871369294,0.733847637415622,0.8540965207631874,0.8629911780749769,Context classification,Random Forest,PCA,38,"{'max_depth': 20, 'min_samples_leaf': 5, 'n_estimators': 100}",,
+0.748040313549832,0.7611464968152867,0.7220543806646526,0.8047138047138047,0.8371611835298987,Context classification,SVM (RBF),PCA,38,"{'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale'}",,
+0.9966480446927374,0.9915492957746479,1.0,0.9832402234636871,0.9999687899878281,Owner authentication,Logistic Regression,Reduced engineered,90,"{'C': 0.1, 'class_weight': None}",,
+0.9988826815642458,0.9971988795518207,1.0,0.994413407821229,1.0,Owner authentication,Random Forest,Reduced engineered,90,"{'max_depth': 10, 'min_samples_leaf': 1, 'n_estimators': 100}",,
+0.9798882681564246,0.9470588235294117,1.0,0.8994413407821229,0.9999375799756562,Owner authentication,SVM (RBF),Reduced engineered,90,"{'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale'}",,
+0.9977653631284916,,,,,Person identification,Logistic Regression,Reduced engineered,90,"{'C': 0.1, 'class_weight': None}",0.9977653456925946,
+0.9653631284916201,,,,,Person identification,Random Forest,Reduced engineered,90,"{'max_depth': 10, 'min_samples_leaf': 5, 'n_estimators': 100}",0.9654031636836236,
+0.9966480446927374,,,,,Person identification,SVM (RBF),Reduced engineered,90,"{'C': 0.1, 'class_weight': None, 'gamma': 'scale'}",0.9966479922381147,
+0.7849944008958567,0.7933261571582346,0.7621509824198552,0.8271604938271605,0.866843481368621,Context classification,Logistic Regression,Reduced engineered,90,"{'C': 0.1, 'class_weight': None}",,
+0.7788353863381859,0.8075986361422309,0.7134251290877797,0.9304152637485971,0.8708086451103212,Context classification,Random Forest,Reduced engineered,90,"{'max_depth': 20, 'min_samples_leaf': 1, 'n_estimators': 100}",,
+0.832026875699888,0.8400852878464818,0.8,0.8843995510662177,0.8772065785101167,Context classification,SVM (RBF),Reduced engineered,90,"{'C': 1, 'class_weight': 'balanced', 'gamma': 'scale'}",,
+1.0,1.0,1.0,1.0,1.0,Cross-context robustness,Random Forest,Engineered,101,from task 1,,normal_test
+0.8664421997755332,0.5333333333333333,0.8831168831168831,0.38202247191011235,0.9269741714862033,Cross-context robustness,Random Forest,Engineered,101,from task 1,,crowded_test
+0.9977653631284916,0.9944444444444445,0.988950276243094,1.0,1.0,Cross-context robustness,Logistic Regression,PCA,38,from task 1,,normal_test
+0.9304152637485971,0.8074534161490683,0.9027777777777778,0.7303370786516854,0.9742266416628584,Cross-context robustness,Logistic Regression,PCA,38,from task 1,,crowded_test
+0.9988826815642458,0.9971988795518207,1.0,0.994413407821229,1.0,Cross-context robustness,Random Forest,Reduced engineered,90,from task 1,,normal_test
+0.8978675645342312,0.6829268292682927,0.8990825688073395,0.550561797752809,0.965472682288794,Cross-context robustness,Random Forest,Reduced engineered,90,from task 1,,crowded_test

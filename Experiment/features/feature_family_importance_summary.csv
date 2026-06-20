@@ -1,0 +1,10 @@
+signal_group,stat_group,n_features,total_importance,mean_importance
+Acceleration axes,Time-domain statistics,18,0.261812006266991,0.014545111459277279
+Gyroscope axes,Time-domain statistics,18,0.23364853635558153,0.012980474241976752
+Gyroscope axes,Frequency-domain statistics,18,0.15407229868562788,0.008559572149201548
+Acceleration axes,Frequency-domain statistics,18,0.11457064940147144,0.0063650360778595245
+Gyroscope magnitude,Time-domain statistics,6,0.09993989715437605,0.01665664952572934
+Cross-axis correlation,Correlation,5,0.06019871733093372,0.012039743466186744
+Acceleration magnitude,Frequency-domain statistics,6,0.05535577655994853,0.009225962759991421
+Gyroscope magnitude,Frequency-domain statistics,6,0.012378436400931725,0.002063072733488621
+Acceleration magnitude,Time-domain statistics,6,0.008023681844138042,0.0013372803073563404

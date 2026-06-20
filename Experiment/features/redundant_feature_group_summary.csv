@@ -1,0 +1,7 @@
+group_id,representative_feature,group_size,absorbed_features
+1,gyro_magnitude_mean,5,"gyro_magnitude_median, gyro_magnitude_rms, gyro_y_rms, gyro_y_std"
+2,gyro_z_band_1_3hz,4,"gyro_z_min, gyro_z_rms, gyro_z_std"
+3,acc_x_mean,2,acc_x_median
+4,acc_y_std,2,acc_magnitude_std
+5,acc_z_median,2,acc_z_mean
+6,gyro_x_rms,2,gyro_x_std

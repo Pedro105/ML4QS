@@ -1,0 +1,7 @@
+task,subset,model,input_representation,accuracy,f1,precision,recall,roc_auc
+Owner authentication,,TCN,Raw 2 s windows,1.0,1.0,1.0,1.0,1.0
+Owner authentication,,GRU,Raw 2 s windows,0.8726256983240224,0.7584745762711864,0.6109215017064846,1.0,0.9983068568396741
+Cross-context robustness,normal_test,TCN,Raw 2 s windows,1.0,1.0,1.0,1.0,1.0
+Cross-context robustness,crowded_test,TCN,Raw 2 s windows,0.9977553310886644,0.9943820224719101,0.9943820224719101,0.9943820224719101,0.9994957215122051
+Cross-context robustness,normal_test,GRU,Raw 2 s windows,0.8726256983240224,0.7584745762711864,0.6109215017064846,1.0,0.9983068568396741
+Cross-context robustness,crowded_test,GRU,Raw 2 s windows,0.6251402918069585,0.28936170212765955,0.2328767123287671,0.38202247191011235,0.5997841057724127

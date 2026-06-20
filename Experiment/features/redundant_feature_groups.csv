@@ -1,0 +1,18 @@
+group_id,group_size,representative_feature,feature,importance,signal_group,stat_group,kept
+1,5,gyro_magnitude_mean,gyro_magnitude_mean,0.03227401268813859,Gyroscope magnitude,Time-domain statistics,True
+1,5,gyro_magnitude_mean,gyro_magnitude_median,0.0189525627883354,Gyroscope magnitude,Time-domain statistics,False
+1,5,gyro_magnitude_mean,gyro_magnitude_rms,0.02570721383141956,Gyroscope magnitude,Time-domain statistics,False
+1,5,gyro_magnitude_mean,gyro_y_rms,0.014737576580317603,Gyroscope axes,Time-domain statistics,False
+1,5,gyro_magnitude_mean,gyro_y_std,0.02361748197046087,Gyroscope axes,Time-domain statistics,False
+2,4,gyro_z_band_1_3hz,gyro_z_band_1_3hz,0.053875441615030224,Gyroscope axes,Frequency-domain statistics,True
+2,4,gyro_z_band_1_3hz,gyro_z_min,0.02138290912781419,Gyroscope axes,Time-domain statistics,False
+2,4,gyro_z_band_1_3hz,gyro_z_rms,0.03182330386976226,Gyroscope axes,Time-domain statistics,False
+2,4,gyro_z_band_1_3hz,gyro_z_std,0.03569545407689279,Gyroscope axes,Time-domain statistics,False
+3,2,acc_x_mean,acc_x_mean,0.052240709183812656,Acceleration axes,Time-domain statistics,True
+3,2,acc_x_mean,acc_x_median,0.04771014328527835,Acceleration axes,Time-domain statistics,False
+4,2,acc_y_std,acc_magnitude_std,0.0006324832744696397,Acceleration magnitude,Time-domain statistics,False
+4,2,acc_y_std,acc_y_std,0.0012016004967829294,Acceleration axes,Time-domain statistics,True
+5,2,acc_z_median,acc_z_mean,0.01633090789138857,Acceleration axes,Time-domain statistics,False
+5,2,acc_z_median,acc_z_median,0.050443820339197656,Acceleration axes,Time-domain statistics,True
+6,2,gyro_x_rms,gyro_x_rms,0.02517947812138714,Gyroscope axes,Time-domain statistics,True
+6,2,gyro_x_rms,gyro_x_std,0.018959179107303294,Gyroscope axes,Time-domain statistics,False
